@@ -1,6 +1,6 @@
 <?php
 
-namespace MouYong\WebmanIlluminate;
+namespace MouYong\WebmanLaravelZero;
 
 class ComposerScripts
 {

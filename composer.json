@@ -10,7 +10,13 @@
   },
   "autoload": {
     "psr-4": {
-      "MouYong\\WebmanIlluminate\\": "src"
+      "MouYong\\WebmanLaravelZero\\": "src"
+    }
+  },
+  "repositories": {
+    "webman-laravel-zero-foundation": {
+        "type": "vcs",
+        "url": "https://github.com/mouyong/webman-laravel-zero-foundation"
     }
   }
 }

@@ -1,5 +1,5 @@
 <?php
-namespace MouYong\WebmanIlluminate;
+namespace MouYong\WebmanLaravelZero;
 
 class Install
 {
@@ -9,7 +9,7 @@ class Install
      * @var array
      */
     protected static $pathRelation = array (
-        'config/plugin/mouyong/webman-illuminate' => 'config/plugin/mouyong/webman-illuminate',
+        'config/plugin/mouyong/webman-laravel-zero' => 'config/plugin/mouyong/webman-laravel-zero',
         'stubs/app' => 'app',
         'stubs/bootstrap' => 'bootstrap',
         'stubs/zero' => 'zero',
