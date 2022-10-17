@@ -35,7 +35,7 @@ return [
     "scripts": {
         // 初始化 laravel-zero/illuminate 与相关配置
         "post-autoload-dump": [
-            "MouYong\\WebmanIlluminate\\ComposerScripts::postAutoloadDump"
+            "MouYong\\WebmanLaravelZero\\ComposerScripts::postAutoloadDump"
         ],
         ...
     }
