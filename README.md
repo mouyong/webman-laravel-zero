@@ -31,7 +31,7 @@ return [
 `composer.json`
 
 ```js
-	"bin": ["zero"], // 这行要原样保存，app:rename 使用
+    "bin": ["zero"], // 这行要原样保存，app:rename 使用
     "scripts": {
         // 初始化 laravel-zero/illuminate 与相关配置
         "post-autoload-dump": [
