@@ -1,12 +1,12 @@
 ## 安装
 
-```shell
+```
 composer config repositories.webman-laravel-zero-foundation vcs https://github.com/mouyong/webman-laravel-zero-foundation
 
 composer require mouyong/webman-laravel-zero:dev-master laravel-zero/foundation:dev-main
 ```
 
-##  配置项目
+## 配置项目
 
 **在 config/app.php 中增加如下内容**
 
@@ -28,7 +28,7 @@ return [
 
 ## 更新 composer.json
 
-```json
+```js
 composer.json
     "bin": ["zero"], // 这行要原样保存，app:rename 使用
     "scripts": {
@@ -42,7 +42,7 @@ composer.json
 
 ## 使用
 
-```shell
+```
 php zero app:install database
 composer require illuminate/routing
 ```
