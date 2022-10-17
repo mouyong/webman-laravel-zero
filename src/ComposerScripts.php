@@ -28,7 +28,7 @@ class ComposerScripts
             }
         }
 
-        $manualDumpScript = "MouYong\\WebmanIlluminate\\ComposerScripts::postAutoloadDump";
+        $manualDumpScript = "MouYong\\WebmanLaravelZero\\ComposerScripts::postAutoloadDump";
         foreach ($json['scripts']['post-autoload-dump'] ?? [] as $index => $script) {
             if (str_contains($script, $manualDumpScript)) {
                 if ($action  == 'remove') {
