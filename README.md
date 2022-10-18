@@ -53,5 +53,3 @@ composer require illuminate/routing
 ![image](https://user-images.githubusercontent.com/10336437/196077662-24bea01e-3b5d-4905-bd84-6530f4ce72c5.png)
 
 ![image](https://user-images.githubusercontent.com/10336437/196077648-61c84b76-ba0a-4b16-81d7-b211a5265e9c.png)
-
-
